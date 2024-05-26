@@ -1,8 +1,4 @@
+streamlit==1.15.1
+numpy==1.23.5
+Pillow==9.3.0
 tensorflow==2.10.0
-fastapi
-uvicorn
-python-multipart
-pillow
-tensorflow-serving-api==2.10.0
-matplotlib
-numpy
