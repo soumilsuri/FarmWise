@@ -1,44 +1,50 @@
-# FarmWise
+<h1>FarmWise</h1>
 
-FarmWise is a project that utilizes Convolutional Neural Networks (CNN) implemented in TensorFlow to classify crop diseases. This tool aids in the identification and diagnosis of crop diseases, enabling farmers to take timely actions to mitigate crop damage.
+    <p>FarmWise is a project that utilizes Convolutional Neural Networks (CNN) implemented in TensorFlow to classify crop diseases. This tool aids in the identification and diagnosis of crop diseases, enabling farmers to take timely actions to mitigate crop damage.</p>
 
-## Requirements
+    <h2>Requirements</h2>
 
-To run FarmWise, ensure you have the following dependencies installed:
+    <p>To run FarmWise, ensure you have the following dependencies installed:</p>
 
-- Python 3.x
-- TensorFlow 2.10.0
-- streamlit 1.15.1
-- numpy 1.23.5
-- Pillow 9.3.0
+    <ul>
+        <li>Python 3.x</li>
+        <li>TensorFlow 2.10.0</li>
+        <li>streamlit 1.15.1</li>
+        <li>numpy 1.23.5</li>
+        <li>Pillow 9.3.0</li>
+    </ul>
 
-You can install these dependencies using pip and the provided `requirements.txt` file:
+    <p>You can install these dependencies using pip and the provided <code>requirements.txt</code> file:</p>
 
-```bash
-pip install -r requirements.txt
+    <pre><code>pip install -r requirements.txt</code></pre>
 
-# Setup
-FarmWise can be set up in a Python environment using Anaconda. Follow these steps to set up the environment:
+    <h2>Setup</h2>
 
-Install Anaconda from Anaconda's website.
-Create a new Anaconda environment using the provided environment.yml file:
-bash
-Copy code
-conda env create -f environment.yml
-Activate the Anaconda environment:
-bash
-Copy code
-conda activate farmwise
-Usage
-Once the dependencies are installed and the environment is set up, you can run FarmWise using Streamlit:
+    <p>FarmWise can be set up in a Python environment using Anaconda. Follow these steps to set up the environment:</p>
 
-bash
-Copy code
-streamlit run farmwise.py
-This command will launch a local server, and you can access FarmWise by opening the provided URL in your web browser.
+    <ol>
+        <li>Install Anaconda from <a href="https://www.anaconda.com/products/distribution">Anaconda's website</a>.</li>
+        <li>Create a new Anaconda environment using the provided <code>environment.yml</code> file:</li>
+    </ol>
 
-Contributing
-If you'd like to contribute to FarmWise, please fork the repository, make your changes, and submit a pull request. We welcome any contributions that improve the accuracy, efficiency, or usability of the tool.
+    <pre><code>conda env create -f environment.yml</code></pre>
 
-License
-FarmWise is licensed under the MIT License.
+    <p>Activate the Anaconda environment:</p>
+
+    <pre><code>conda activate farmwise</code></pre>
+
+    <h2>Usage</h2>
+
+    <p>Once the dependencies are installed and the environment is set up, you can run FarmWise using Streamlit:</p>
+
+    <pre><code>streamlit run farmwise.py</code></pre>
+
+    <p>This command will launch a local server, and you can access FarmWise by opening the provided URL in your web browser.</p>
+
+    <h2>Contributing</h2>
+
+    <p>If you'd like to contribute to FarmWise, please fork the repository, make your changes, and submit a pull request. We welcome any contributions that improve the accuracy, efficiency, or usability of the tool.</p>
+
+    <h2>License</h2>
+
+    <p>FarmWise is licensed under the MIT License.</p>
